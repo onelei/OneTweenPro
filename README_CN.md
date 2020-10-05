@@ -1,8 +1,8 @@
-# OneTweenPro：OneTween升级版
+# OneTweenPro：OneTween Pro版
 
 OneTweenPro不仅包含了OneTween的所有功能，同时包含了DOTween的所有功能。目前来说基本上能满足市面上所有Tween的功能，下面将详细列出。
 
-![160x160](C:\Users\ahlei\Desktop\UnityAssetStore\OneTweenPro\160x160.png)
+![160x160](./Doc/160x160.png)
 
 [OneTweenPro]( https://assetstore.unity.com/packages/slug/165223 
 ) 是一个更方便高效的无GC的Unity下的Tween动画插件。不仅仅所见即所得，同时包含了市面主流Tween的功能。
@@ -163,19 +163,23 @@ transform.DOLocalMoveZ(1000, 1, () =>
 
 OneTweenPosition：控制Position的动画组件。
 
-![OneTweenPosition](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenPosition.png)
+![OneTweenPosition](./Doc/OneTweenPosition.png)
 
 OneTweenRotation：控制Rotation的动画组件。
 
-![OneTweenRotation](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenRotation.png)
+![OneTweenRotation](./Doc/OneTweenRotation.png)
 
 OneTweenScale：控制Scale的动画组件。
 
-![OneTweenScale](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenScale.png)
+![OneTweenScale](./Doc/OneTweenScale.png)
+
+OneTweenAlpha：控制Alpha的动画组件。
+
+![OneTweenScale](./Doc/OneTweenAlpha.png)
 
 OneTweenGroup：可以设置动画的Group组，做到按不同的组进行播放。
 
-![OneTweenGroup](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenGroup.png)
+![OneTweenGroup](./Doc/OneTweenGroup.png)
 
 OneTween还支持代码设置播放结束的回调函数。
 

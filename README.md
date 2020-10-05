@@ -173,6 +173,10 @@ OneTweenScale：controls the Scale.
 
 ![OneTweenScale](./Doc/OneTweenScale.png)
 
+OneTweenAlpha：controls the Alpha.
+
+![OneTweenScale](./Doc/OneTweenAlpha.png)
+
 OneTweenGroup：You can set the Group group of the animation so that it can be played in different groups.
 
 ![OneTweenGroup](./Doc/OneTweenGroup.png)
