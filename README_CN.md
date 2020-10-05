@@ -1,35 +1,35 @@
-# OneTweenPro: OneTween pro version
+# OneTweenPro：OneTween升级版
 
-OneTweenPro not only includes all the functions of OneTween, but also all the functions of DOTween. At present, it can basically meet all the functions of Tween on the market, which will be listed in detail below.
+OneTweenPro不仅包含了OneTween的所有功能，同时包含了DOTween的所有功能。目前来说基本上能满足市面上所有Tween的功能，下面将详细列出。
 
 ![160x160](C:\Users\ahlei\Desktop\UnityAssetStore\OneTweenPro\160x160.png)
 
 [OneTweenPro]( https://assetstore.unity.com/packages/slug/165223 
-)  is a more convenient and efficient Tween animation plugin under Unity without GC. Not only what you see is what you get, it also includes the functions of the mainstream Tween on the market.
+) 是一个更方便高效的无GC的Unity下的Tween动画插件。不仅仅所见即所得，同时包含了市面主流Tween的功能。
 
-## Features
+## 特点
 
-OneTweenPro Not only includes OneTween's what you see is what you get and other functions, but also has the following unique features: 
+OneTweenPro 不仅包含OneTween的所见即所得等所有功能，同时还有如下的独特之处： 
 
-- Support DOMove、DOMoveX、DOMoveY、DOMoveZ、DOLocalMove、DOLocalMoveX、DOLocalMoveY、DOLocalMoveZ.
-- Support DOMove to pass in multiple target points, set the callback for the end of a single move and the callback for the end of the overall move.
-- Support DOAlpha.
-- Support DORotation、DORotationX、DORotationY、DORotationZ、DOLocalRotation、DOLocalRotationX、DOLocalRotationY、DOLocalRotationZ。
-- Support DOLocalScale、DOLocalScaleX、DOLocalScaleY、DOLocalScaleZ。
-- 0GC in runtime.
-- Include all source code and sample scene.
+- 支持DOMove、DOMoveX、DOMoveY、DOMoveZ、DOLocalMove、DOLocalMoveX、DOLocalMoveY、DOLocalMoveZ。
+- 支持DOMove传入多个目标点，设置单个移动结束的回调和整体移动结束的回调。 
+- 支持DOAlpha。
+- 支持DORotation、DORotationX、DORotationY、DORotationZ、DOLocalRotation、DOLocalRotationX、DOLocalRotationY、DOLocalRotationZ。
+- 支持DOLocalScale、DOLocalScaleX、DOLocalScaleY、DOLocalScaleZ。
+- 整个Tween动画播放过程0GC
+- 包含完整的代码和示例场景。
 
-## Use
+## 使用
 
-1. If you need to use the related what you see is what you get function of OneTween, you need to hang the script under a Transform.
+1.如果需要使用OneTween的相关所见即所得的功能需要将脚本挂在某个Transform下面。
 
-2. If you need to use DO-related functions such as DOMove, the transform component has been extended and can be used directly.
+2.如果需要使用DOMove等DO相关功能，transform组件下扩展出来了，可以直接使用。
 
-Let's demonstrate how to use it through a few simple examples.
+下面通过几个简单的示例演示一下如何使用。
 
 ### DOMove
 
-If you just want to set to move to a certain point, call DOMove or DOLocalMove directly under Transform.
+如果仅仅想设置移动到某个点直接Transform下面调用DOMove或者DOLocalMove即可
 
 ```c#
 transform.DOLocalMove(new Vector3(2000, 2000, 2000), 1, () =>
@@ -45,13 +45,13 @@ transform.DOMove(new Vector3(4000, 4000, 4000), 1, () =>
 }
 ```
 
-The first parameter is the coordinates of the target point.
+第一个参数是目标点坐标。
 
-The second parameter is the required time (unit: seconds).
+第二个参数是所需要的时间（单位:秒）。
 
-The third parameter is the callback after the move.
+第三个参数是移动结束之后的回调。
 
-Of course, if you just want to set a single XYZ coordinate, there is also a corresponding function.
+当然如果仅仅想设置单个XYZ的坐标，也有对应的函数
 
 ```c#
 transform.DOLocalMoveX(1000, 1, () =>
@@ -86,7 +86,7 @@ transform.DOLocalMoveZ(1000, 1, () =>
 }
 ```
 
-Of course, you can also pass in multiple target points.
+当然也可以传入多个目标点
 
 ```c#
     void TestDOMoveTargets()
@@ -113,7 +113,7 @@ Of course, you can also pass in multiple target points.
 ```
 ### Append
 
-If you want to play several different Tween animations in sequence, use Sequence.
+如果想要顺序播放几个不同的Tween动画使用Sequence
 
 ```c#
         void TestAppend()
@@ -159,42 +159,42 @@ If you want to play several different Tween animations in sequence, use Sequence
 
 
 
-### Animation Component
+### 动画组件
 
-OneTweenPosition：controls the Position.
+OneTweenPosition：控制Position的动画组件。
 
 ![OneTweenPosition](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenPosition.png)
 
-OneTweenRotation：controls the Rotation.
+OneTweenRotation：控制Rotation的动画组件。
 
 ![OneTweenRotation](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenRotation.png)
 
-OneTweenScale：controls the Scale.
+OneTweenScale：控制Scale的动画组件。
 
 ![OneTweenScale](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenScale.png)
 
-OneTweenGroup：You can set the Group group of the animation so that it can be played in different groups.
+OneTweenGroup：可以设置动画的Group组，做到按不同的组进行播放。
 
 ![OneTweenGroup](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenGroup.png)
 
-It also supports code to set the callback function for the end of playback. 
+OneTween还支持代码设置播放结束的回调函数。
 
-## Install
+## 安装
 
-The “Assets/OneTweenPro” folder contains all the OneTweenPro code. You can put the OneTweenPro folder anywhere under the Assets folder.
+在 “Assets/OneTweenPro” 文件夹里面包含了所有的 OneTweenPro代码. 你可以把 OneTweenPro 文件夹放在 Assets 文件夹下面的任意位置。
 
-## Document
+## 文档
 
 [PDF](./Doc/README.pdf)
 
-## Release Version
+## Release 版本
 
 ### 1.0.0
 
 Init release 
 
-## Contact
+## 联系
 
-For more information:   https://assetstore.unity.com/packages/slug/180185
+更多信息可以进入网站:   https://assetstore.unity.com/packages/slug/180185
 
 Email: 936496193@qq.com
