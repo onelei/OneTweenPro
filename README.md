@@ -2,7 +2,7 @@
 
 OneTweenPro not only includes all the functions of OneTween, but also all the functions of DOTween. At present, it can basically meet all the functions of Tween on the market, which will be listed in detail below.
 
-![160x160](C:\Users\ahlei\Desktop\UnityAssetStore\OneTweenPro\160x160.png)
+![160x160](./Doc/160x160.png)
 
 [OneTweenPro]( https://assetstore.unity.com/packages/slug/165223 
 )  is a more convenient and efficient Tween animation plugin under Unity without GC. Not only what you see is what you get, it also includes the functions of the mainstream Tween on the market.
@@ -163,19 +163,19 @@ If you want to play several different Tween animations in sequence, use Sequence
 
 OneTweenPosition：controls the Position.
 
-![OneTweenPosition](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenPosition.png)
+![OneTweenPosition](./Doc/OneTweenPosition.png)
 
 OneTweenRotation：controls the Rotation.
 
-![OneTweenRotation](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenRotation.png)
+![OneTweenRotation](./Doc/OneTweenRotation.png)
 
 OneTweenScale：controls the Scale.
 
-![OneTweenScale](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenScale.png)
+![OneTweenScale](./Doc/OneTweenScale.png)
 
 OneTweenGroup：You can set the Group group of the animation so that it can be played in different groups.
 
-![OneTweenGroup](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenGroup.png)
+![OneTweenGroup](./Doc/OneTweenGroup.png)
 
 It also supports code to set the callback function for the end of playback. 
 
