@@ -163,19 +163,19 @@ If you want to play several different Tween animations in sequence, use Sequence
 
 OneTweenPosition：controls the Position.
 
-![OneTweenPosition](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenPosition.png)
+![OneTweenPosition](./Doc/OneTweenPosition.png)
 
 OneTweenRotation：controls the Rotation.
 
-![OneTweenRotation](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenRotation.png)
+![OneTweenRotation](./Doc/OneTweenRotation.png)
 
 OneTweenScale：controls the Scale.
 
-![OneTweenScale](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenScale.png)
+![OneTweenScale](./Doc/OneTweenScale.png)
 
 OneTweenGroup：You can set the Group group of the animation so that it can be played in different groups.
 
-![OneTweenGroup](C:\Users\ahlei\Desktop\UnityAssetStore\OneTween\OneTweenGroup.png)
+![OneTweenGroup](./Doc/OneTweenGroup.png)
 
 It also supports code to set the callback function for the end of playback. 
 
