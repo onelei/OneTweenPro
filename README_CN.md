@@ -7,6 +7,8 @@ OneTweenPro不仅包含了OneTween的所有功能，同时包含了DOTween的所
 [OneTweenPro]( https://assetstore.unity.com/packages/slug/165223 
 ) 是一个更方便高效的无GC的Unity下的Tween动画插件。不仅仅所见即所得，同时包含了市面主流Tween的功能。
 
+![420x280](./Doc/420x280.png)
+
 ## 特点
 
 OneTweenPro 不仅包含OneTween的所见即所得等所有功能，同时还有如下的独特之处： 
