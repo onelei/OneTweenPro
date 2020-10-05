@@ -2,7 +2,7 @@
 
 OneTweenPro not only includes all the functions of OneTween, but also all the functions of DOTween. At present, it can basically meet all the functions of Tween on the market, which will be listed in detail below.
 
-![160x160](C:\Users\ahlei\Desktop\UnityAssetStore\OneTweenPro\160x160.png)
+![160x160](./Doc/160x160.png)
 
 [OneTweenPro]( https://assetstore.unity.com/packages/slug/165223 
 )  is a more convenient and efficient Tween animation plugin under Unity without GC. Not only what you see is what you get, it also includes the functions of the mainstream Tween on the market.
